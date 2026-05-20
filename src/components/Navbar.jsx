@@ -34,8 +34,8 @@ const Navbar = () => {
                     <span className='absolute left-0 -bottom-1 w-full h-0.5 bg-pink-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left'></span>
                 </a>
 
-                <a href="#Profile" className='relative text-white/80 transition durationn-300 hover:text-pink-500 group'>
-                    <span>Profile</span>
+                <a href="#Contact" className='relative text-white/80 transition durationn-300 hover:text-pink-500 group'>
+                    <span>Contact</span>
                     <span className='absolute left-0 -bottom-1 w-full h-0.5 bg-pink-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left'></span>
                 </a>
 
@@ -69,8 +69,8 @@ const Navbar = () => {
                     <span>Projects</span>
                 </a>
 
-                <a onClick={() => setShowMenu(!showMenu)}   href="#Profile" className='relative text-white/80 transition durationn-300 hover:text-pink-500 group'>
-                    <span>Profile</span>
+                <a onClick={() => setShowMenu(!showMenu)}   href="#Contact" className='relative text-white/80 transition durationn-300 hover:text-pink-500 group'>
+                    <span>Contact</span>
                 </a>
 
            </div>
