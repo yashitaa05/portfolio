@@ -17,7 +17,7 @@ const Hero = () => {
         <div className='md:w-1/2 text-center md:text-left'>
           <h1 className='text-4xl md:text-6xl font-bold leading-tight mb-4'>
             Hey, I'm
-            <span className='text-pink-500'> Yashita Bansal</span>
+            <span className='text-pink-500'> Yashita Kharbanda</span>
           </h1>
 
           <h2 className='text-2xl md:text-4xl font-semibold text-gray-300 mb-4'>
