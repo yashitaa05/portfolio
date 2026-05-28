@@ -9,7 +9,7 @@ export const projects =  [
     image: portfolioImg,
     tech: ["React", "Tailwind CSS", "JavaScript"],
     github: "https://github.com/yashitaa05/portfolio",
-    live:"https://yashitaportfolio.vercel.app/"
+    live:"https://portfolio-a972.onrender.com/"
   },
  {
   title: "CAPTCHA Accessibility Analyzer",
