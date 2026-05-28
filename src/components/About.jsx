@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profile from '../assets/profile.jpeg';
+import profile from '../assets/profile.jpeg'; 
 
 const About = () => {
   return (
@@ -8,18 +8,17 @@ const About = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      viewport={{ once: true }}
+      viewport={{ once: true }} 
       id='about'
       className='py-24 bg-gray-950 text-white'
     >
       <div className='container mx-auto px-6'>
-
         <h2 className='text-4xl font-bold text-center mb-4'>
           About <span className='text-pink-500'>Me</span>
         </h2>
 
         <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>
-          I’m continuously learning and growing as a frontend developer.
+          I'm continuously learning and growing as a frontend developer.
         </p>
 
         <div className='flex flex-col md:flex-row items-center gap-12'>

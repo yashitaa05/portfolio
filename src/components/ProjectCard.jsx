@@ -1,6 +1,13 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, image, tech = [] }) => {
+const ProjectCard = ({
+  title,
+  description,
+  image,
+  tech = [],
+  live,
+  github
+}) => {
   return (
     <div className='bg-gray-900 rounded-3xl overflow-hidden border border-gray-800 hover:border-pink-500 hover:-translate-y-2 transition duration-300 shadow-lg p-6'>
 
@@ -29,12 +36,23 @@ const ProjectCard = ({ title, description, image, tech = [] }) => {
         ))}
       </div>
 
-      <div className='flex justify-start'>
+      <div className='flex gap-4'>
         <a
-          href="#"
+          href={live}
+          target="_blank"
+          rel="noopener noreferrer"
           className='px-4 py-2 bg-pink-500 rounded-lg text-sm font-medium hover:bg-pink-600 transition duration-300 inline-block'
         >
           View Project
+        </a>
+
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className='px-4 py-2 bg-gray-700 rounded-lg text-sm font-medium hover:bg-gray-600 transition duration-300 inline-block'
+        >
+          GitHub
         </a>
       </div>
 
